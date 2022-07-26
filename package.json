@@ -1,0 +1,39 @@
+{
+  "name": "hascal",
+  "displayName": "Hascal",
+  "description": "Hascal for vscode",
+  "version": "0.1.0",
+  "icon": "hascal.png",
+  "publisher": "Hascal Foundation",
+  "repository": {
+    "url": "https://github.com/hascal/vscode"
+  },
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hascal",
+        "aliases": [
+          "Hascal",
+          "hascal"
+        ],
+        "extensions": [
+          ".has"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hascal",
+        "scopeName": "source.has",
+        "path": "./syntaxes/hascal.tmLanguage.json"
+      }
+    ]
+  }
+}
