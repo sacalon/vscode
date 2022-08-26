@@ -12,4 +12,5 @@ git clone https://github.com/hascal/vscode
 - Rename `vscode` folder to `hascal` and copy it to your vscode extensions folder
 
 ## Todo
-Release on marketplace
+
+- [X] Release on marketplace
