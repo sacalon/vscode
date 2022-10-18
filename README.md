@@ -5,7 +5,7 @@
 Hascal vscode extension
 
 ## Install
-you can install it from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=HascalFoundation.hascal) or by click on [here](vscode:extension/HascalFoundation.hascal)
+you can install it from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=HascalFoundation.hascal)
 
 ## Todo
 
