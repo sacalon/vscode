@@ -5,11 +5,7 @@
 Hascal vscode extension
 
 ## Install
-- Clone the repository
-```
-git clone https://github.com/hascal/vscode
-```
-- Rename `vscode` folder to `hascal` and copy it to your vscode extensions folder
+you can install it from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=HascalFoundation.hascal)
 
 ## Todo
 
