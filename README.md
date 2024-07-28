@@ -1,6 +1,6 @@
 # Sacalon for VSCODE
 
-![capture](Capture.PNG)
+![capture](ScreenShot.PNG)
 
 Sacalon VSCODE extension
 
