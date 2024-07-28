@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Hascal",
+	"name": "sacalon",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -36,73 +36,73 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.hascal",
+				"name": "keyword.control.sacalon",
 				"match": "\\b(var|const|function|if|else|for|while|in|struct|enum|new|delete)\\b"
 			}]
 		},
 		"builtin_commands": {
 			"patterns": [{
-				"name": "constant.character.escape.hascal",
+				"name": "constant.character.escape.sacalon",
 				"match": "\\b(return|cuse|use|local|break|continue|and|or|not)\\b"
 			}]
 		},
 		"datatypes": {
 			"patterns": [{
-				"name": "entity.name.type.hascal",
+				"name": "entity.name.type.sacalon",
 				"match": "\\b(string|int|float|char|bool|int8|uint8|int16|uint16|int32|uint32|int64|uint64|double)\\b"
 			}]
 		},
 		"boolean_and_null": {
 			"patterns": [{
-				"name": "entity.name.tag.hascal",
+				"name": "entity.name.tag.sacalon",
 				"match": "\\b(true|false)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.hascal",
+			"name": "string.quoted.double.sacalon",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.hascal",
+					"name": "constant.character.escape.sacalon",
 					"match": "\\\\."
 				}
 			]
 		},
 		"single_strings": {
-			"name": "string.quoted.single.hascal",
+			"name": "string.quoted.single.sacalon",
 			"begin": "'",
 			"end": "'",
 			"patterns": [
 				{
-					"name": "constant.character.escape.hascal",
+					"name": "constant.character.escape.sacalon",
 					"match": "\\\\."
 				}
 			]
 		},
 		"variables": {
 			"patterns": [{
-				"name": "variable.hascal",
+				"name": "variable.sacalon",
 				"match": "\\[a-zA-Z_0-9$\\.]*"
 			}]
 		},
 		"modules": {
 			"patterns": [{
-				"name": "entity.name.tag.hascal",
+				"name": "entity.name.tag.sacalon",
 				"match": "\\[a-zA-Z_0-9$\\.]*"
 			}]
 		},
 		"builtin_functions": {
 			"patterns": [{
-				"name": "entity.name.function.hascal",
+				"name": "entity.name.function.sacalon",
 				"match": "\\b(print|ReadStr|ReadFloat|ReadInt|ReadBool|ReadChar|format|split|exit|panic|error|len|append|sizeof|typeof)\\b"
 			}]
 		},
 		"comments": {
-			"name": "comment.line.number-sign.hascal",
+			"name": "comment.line.number-sign.sacalon",
 			"begin": "(\\//)",
 			"end": "($)"
 		}
 	},
-	"scopeName": "source.has"
+	"scopeName": "source.sa"
 }

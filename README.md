@@ -2,14 +2,14 @@
 
 ![capture](Capture.PNG)
 
-Hascal vscode extension
+Sacalon VSCODE extension
 
 ## Installation
-- Clone the repository
+- Download sacalon `.vsix` file from [the releases page](https://github.com/sacalon/vscode/releases)
+- Run following command in your terminal:
 ```
-git clone https://github.com/sacalon-lang/vscode
+code --install-extension <path-to-downloaded-vsix-file>
 ```
-- Rename `vscode` folder to `hascal` and copy it to your vscode extensions folder
 
 ## Todo
 

@@ -1,12 +1,12 @@
 {
-  "name": "hascal",
-  "displayName": "Hascal",
-  "description": "Hascal for vscode",
-  "version": "0.1.0",
-  "icon": "hascal.png",
-  "publisher": "HascalFoundation",
+  "name": "sacalon",
+  "displayName": "Sacalon Language",
+  "description": " Sacalon is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software. ",
+  "version": "0.1.1",
+  "icon": "logo.jpeg",
+  "publisher": "SacalonFoundation",
   "repository": {
-    "url": "https://github.com/hascal/vscode"
+    "url": "https://github.com/sacalon/vscode"
   },
   "engines": {
     "vscode": "^1.5.0"
@@ -17,22 +17,22 @@
   "contributes": {
     "languages": [
       {
-        "id": "hascal",
+        "id": "sacalon",
         "aliases": [
-          "Hascal",
-          "hascal"
+          "Sacalon",
+          "sacalon"
         ],
         "extensions": [
-          ".has"
+          ".sa"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "hascal",
-        "scopeName": "source.has",
-        "path": "./syntaxes/hascal.tmLanguage.json"
+        "language": "sacalon",
+        "scopeName": "source.sa",
+        "path": "./syntaxes/sacalon.tmLanguage.json"
       }
     ]
   }
