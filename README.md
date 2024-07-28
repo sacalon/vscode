@@ -12,5 +12,4 @@ code --install-extension <path-to-downloaded-vsix-file>
 ```
 
 ## Todo
-
 - [ ] Release on marketplace
